@@ -7,6 +7,10 @@
 }
 
 body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	width: 100vw;
 	max-height: 100vh;
 	font-family: 'Ubuntu', sans-serif;
@@ -17,8 +21,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 375px;
-	height: 97vh;
-	margin: 0 auto;
+	height: 100vh;
 	background-color: hsl(217, 100%, 97%);
 }
 
@@ -469,7 +472,7 @@ input:-webkit-autofill {                     /* ------- Change the background co
 		position: relative;
 		flex-direction: row;
 		width: 1200px;
-		height: 95vh;
+		height: 100vh;
 		background-color:hsl(0, 0%, 100%);
 		padding: 1rem;
 		margin-top: 1rem;
